@@ -1,0 +1,156 @@
+div.backimage{
+	top:0;              
+    left:0;
+    bottom:0;
+    right:0;
+    z-index:-1;
+    background-repeat:no-repeat;
+    background-position:top center;
+    background-image:url('images/books.jpg');
+    background-size     : cover;
+    position: fixed;
+}
+div.container-tooltip{
+    padding: 10px 0px;
+
+}
+div.tooltip{
+    background-color: #ffd62c;
+    font-size:13px;
+    padding: 6px 4px;
+    margin-right:20px;
+    float: right;
+
+} 
+div.menu{
+   width : 684px;
+   height : 74px;
+   margin-left : 294px;
+}
+div.menu ul{
+   list-style-type:none;
+    margin-left:20px;
+}
+div.menu li{
+    padding:12px 20px;
+    float:left;
+
+   
+}
+div.menu h1{
+    text-indent:1000px;
+    overflow: hidden;
+
+}
+div.menu a {
+    color:grey;
+    text-decoration:none;
+
+}
+div.menu li:hover{
+    color:black;
+    font-weight:bold;
+    -webkit-transition-duration:1000ms;
+} 
+.clear{
+    clear:both;
+    width:0 !important;
+    height:0 !important;
+    min-height:0 !important;
+    min-width:0 !important;
+    overflow:hidden;
+}
+div.container-header{
+    padding: 5px 15px;
+    background-color:white;
+    height:auto;
+
+}
+div.logo h1{
+    background-image: url('images/logo.jpg');
+    text-indent:1000px;
+    overflow: hidden;
+    height:37px;
+    width:144px;
+    display: block;
+    margin-top:20px;
+}
+div.menu > ul > li:first-child{
+    border-left:2px solid white;
+}
+div.menu li ul{
+    list-style-type:none;
+    position: absolute;
+    display: none;
+    top:80px;
+    border-top:3px solid transparent;
+}
+
+div.menu li li{
+    float: none;
+    border:0 none;
+    background-color:white;
+}
+
+div.menu li li a{
+    white-space: nowrap;
+}
+
+div.menu li:hover ul{
+    display: block;
+    min-width:100%;/* **** */
+}
+div.container-banner{
+    padding: 10px 0px;
+    background-color: white;
+    margin-top:10px;
+
+} 
+div.text{
+    background-color: white;
+    min-height:350px;
+}  
+div.text p{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100%;
+    font: 13px/21px;
+}
+div.slideshow{
+    width : 700px;
+    overflow : hidden;
+    margin : 0 auto ;
+    margin-right:230px;
+
+}
+div.slideshow div.train{
+    width : 3000px;
+    position : relative;
+    -webkit-transition : left 916ms;
+}
+div.slideshow .train > div{
+    float : left;
+}
+div.slideshow .train > div > img{
+    display : block;
+}
+div.slideshow ul.butt{
+    list-style-type : none;
+    margin-top : 10px;
+    position: absolute;
+    left:790px;
+    top:460px;
+}
+div.slideshow li{
+    width : 20px;
+    height : 20px;
+    background-color : black;
+    border-radius:50%;
+    float:right;
+    margin-right:10px;
+    -webkit-transition : all 800ms;
+}
+div.slidshow li:hover{
+    background-color : darkgreen;
+    -webkit-transition : all 200ms;
+    margin-top:-3px;
+}
