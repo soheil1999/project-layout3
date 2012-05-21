@@ -169,40 +169,88 @@ div.line{
 }
 .poster1{
     padding: 5px;
+    min-height:300px;
+    
 
 }
 .poster2{
     padding: 5px;
+    min-height:300px;
+
 
 }
 .poster3{
     padding: 5px;
+    min-height:300px;
 
 }
 .poster4{
     padding: 5px;
+    min-height:300px;
+
 
 }
-.posters span.linkh a{
+.linkh a{
     text-decoration:none;
     color: darkgrey;
 }
 .posters p{
     text-align:center;
 }
-.posters span.linkh a:hover{
+.linkh a:hover{
     background-color:orange;
     -webkit-transition:800ms;
 
 
 }
-span.link a{
+.link a{
     font-weight: bold;
     color:black;
     text-decoration:none;
 
 }
-span.link:hover{
+.link:hover{
     color: darkgrey;
     -webkit-transition:800ms;
+}
+a.ar:hover{
+    background-color: orange;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter:alpha(opacity=5);
+    -webkit-transition:300ms;
+
+}
+.container-widgets{
+    background-color: rgb(20,20,20);
+    margin-top: 10px;
+}
+.kabood{
+    padding: 10px 20px;
+    width:350px;
+    color: grey;
+}
+.tind{
+    width:350px;
+    padding: 10px 20px;
+    color: grey;
+
+}
+.tind a{
+    color: white;
+}
+.kabood a{
+    color: white;
+}
+div.firstT{
+    color: grey;
+}
+div.secondT{
+    color: grey;
+}
+.fmenu ul{
+
+}
+.fmenu li{
+    padding: 12px 5px  ;
 }
